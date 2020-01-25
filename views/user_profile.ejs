@@ -1,0 +1,38 @@
+<!--
+    <link rel="stylesheet" href="/css/user_profile.css">
+<h1>
+    Codeial / Profile Page
+</h1>
+<p><%= user.name %></p>
+<p><%= user.email %></p>
+<main>
+
+</main>-->
+<link rel="stylesheet" href="/css/user_profile.css">
+<aside>
+    <div >
+        <div class="image">
+            <i class="fas fa-user-circle"></i>
+        </div>
+        <div class="comp">
+            <ul>
+                <li><a href="#"> <%=user.name%></a></li>
+            </ul>
+        </div>
+        <div class="sub">
+            <ul>
+                <li><a href="#">courses</a></li>
+                <li><a href="#">schemes</a></li>
+                <li><a href="#">policies</a></li>
+                <li><a href="#">action</a></li>
+                <li><a href="#">mentors</a></li>
+                <li><a href="#">inverstors</a></li>
+                
+            </ul>
+        </div>
+    </div>
+</aside>
+<%- include('_mentors'); %>
+<!--<main>
+     <h1 class="main-class">hey</h1>
+</main>-->

@@ -1,0 +1,56 @@
+#layout-footer {
+  color: white;
+  background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+  padding: 5px 10px; }
+  #layout-footer a {
+    color: white;
+    text-decoration: none; }
+  #layout-footer .footer-nav ul {
+    list-style: none; }
+  #layout-footer .row {
+    display: flex;
+    justify-content: space-evenly; }
+  #layout-footer .col-md-4 h1 {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px; }
+  #layout-footer .col-md-4 {
+    padding-left: 100px;
+    padding-top: 150px; }
+  #layout-footer .col-md-6 h2 {
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 58px;
+    font-size: 25px;
+    padding-top: 80px;
+    padding-left: 20px; }
+  #layout-footer .col-md-6 ul {
+    display: flex; }
+  #layout-footer .col-md-6 ul li {
+    padding-left: 25px; }
+  #layout-footer .col-md-6 .symbols li a {
+    font-size: 35px;
+    margin-left: 5px;
+    padding-top: 10px;
+    margin-top: 60px;
+    padding: 10px; }
+  #layout-footer .col-md-6 .symbols {
+    padding-top: 15px; }
+  #layout-footer .col-md-6 .symbols li:hover a {
+    border: 2px solid  #037EF3; }
+  #layout-footer .col-md-6 .mazak li a {
+    font-size: 20px;
+    font-family: 'Sarabun', sans-serif;
+    margin-left: 15px;
+    text-transform: uppercase; }
+  #layout-footer p {
+    font-size: 35px;
+    margin-left: 82px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-top: 70px; }
+  #layout-footer p i {
+    color: red; }

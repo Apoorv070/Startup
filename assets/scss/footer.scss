@@ -1,0 +1,85 @@
+#layout-footer{
+    color: white;
+    //height: 450px;
+    a{
+        color: white;
+        text-decoration: none;
+    }
+
+    background-image: linear-gradient(141deg, #9fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);
+    padding: 5px 10px;
+   
+    
+
+    .footer-nav{
+        ul{
+            list-style: none;
+        }
+    }
+
+    .row{display: flex;
+        justify-content: space-evenly;        
+    }
+    .col-md-4 h1{
+        font-family: 'Merriweather', serif;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+       
+        
+}
+
+.col-md-4{
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+.col-md-6 h2{
+    font-family: 'Merriweather', serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-left: 58px;
+    font-size: 25px;
+padding-top: 80px;
+padding-left: 20px;
+
+}
+
+.col-md-6 ul{display: flex;}
+
+.col-md-6 ul li{
+    padding-left: 25px;;
+}
+.col-md-6 .symbols li a{
+font-size: 35px;
+margin-left: 5px;
+padding-top: 10px;
+margin-top: 60px;
+
+padding: 10px;
+}
+.col-md-6 .symbols{
+    padding-top: 15px;
+
+}
+.col-md-6 .symbols li:hover a{
+    border: 2px solid  #037EF3;
+}
+.col-md-6 .mazak li a{
+    font-size: 20px;
+    font-family: 'Sarabun', sans-serif;
+    margin-left: 15px;;
+    text-transform: uppercase;
+}
+p{
+    font-size: 35px;
+    margin-left: 82px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+p i{
+    color: red;
+}
+}
